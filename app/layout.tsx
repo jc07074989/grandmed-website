@@ -1,15 +1,11 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import './globals.css'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "GrandMed | Healthcare Property & Clinical Partnerships",
-  description: "GrandMed develops integrated healthcare precincts combining healthcare property, clinical partnerships and long-term platform value.",
-};
+  title: 'GrandMed | Healthcare Property & Clinical Partnerships',
+  description: 'GrandMed develops integrated healthcare precincts across Australia, supported by GranDev property development capability.',
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+  return <html lang="en"><body>{children}</body></html>
 }
